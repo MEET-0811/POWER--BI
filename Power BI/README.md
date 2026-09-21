@@ -44,6 +44,7 @@ Power BI is used here specifically for its ability to combine data modeling (rel
 Who this is for: sales leads, category/product managers, and account teams who need a fast, filterable view of performance without writing queries or building pivot tables manually.
 
 What decisions it supports: identifying which categories and products to prioritize, spotting underperforming regions, recognizing top-contributing customers worth retaining, and understanding whether sales are trending up, down, or flat over a selected period.
+
 ---
 
 ## Dashboard Preview
