@@ -26,18 +26,24 @@
 
 ## Overview
 
-This project is a five-page Power BI report built on a sales dataset of **1,000 transactions**, **200 customers**, **100 products** (Furniture, Office Supplies, Technology) and **4 regions** (North, South, East, West), covering **June 2024 – June 2025**.
+The Sales & Customer Intelligence Dashboard is a five-page Power BI report built on a transactional sales dataset covering 1,000 transactions, 200 customers, 100 products across three categories (Furniture, Office Supplies, Technology), and 4 regions (North, South, East, West), spanning June 2024 – June 2025.
 
-The report opens on a navigation page and leads into a sales overview, a product deep-dive, and a customer deep-dive. Together they answer questions such as:
+At its core, this project addresses a common analytical challenge: sales, customer, and product data are usually captured as flat transactional records, but the real business value comes from being able to slice that data by time, region, category, and customer segment — and to move between a high-level summary and a detailed drill-down without switching tools.
 
-- How are total sales and order volume moving over time?
-- Which product categories drive the most sales, and which individual products lead?
-- How do the four regions compare?
-- Who are the top customers, and how do their sales and order counts look?
-- How do results change by year, region, and customer segment?
+I built this dashboard to bring together four data domains that are normally analyzed separately:
 
-It is designed for sales leads, product and category managers, and account teams who need a quick, filterable view of performance.
+Sales performance — how total revenue and order volume are trending
+Product performance — which categories and individual products are driving results
+Customer performance — which customers contribute the most, and how consistently
+Regional performance — how the four regions compare against each other
 
+Analyzing these together matters because in a real sales organization, none of these questions can be answered in isolation. A sales lead asking "why did North underperform this quarter" needs to see the product mix, the customer base, and the time trend for that region simultaneously — not four separate spreadsheets.
+
+Power BI is used here specifically for its ability to combine data modeling (relating multiple tables into a single queryable model), DAX (custom business calculations), and interactive visuals into one connected report, so that a single click on a slicer or chart updates every visual on the page consistently.
+
+Who this is for: sales leads, category/product managers, and account teams who need a fast, filterable view of performance without writing queries or building pivot tables manually.
+
+What decisions it supports: identifying which categories and products to prioritize, spotting underperforming regions, recognizing top-contributing customers worth retaining, and understanding whether sales are trending up, down, or flat over a selected period.
 ---
 
 ## Dashboard Preview
