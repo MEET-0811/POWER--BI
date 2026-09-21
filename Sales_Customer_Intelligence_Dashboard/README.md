@@ -51,6 +51,7 @@ What decisions it supports: identifying which categories and products to priorit
 
 <img width="932" height="524" alt="image" src="https://github.com/user-attachments/assets/d0666170-a330-419f-bdb5-ca33a8d6e468" />
 
+
 > Purpose: Serve as the single entry point into the report.
 What I implemented: Four numbered navigation buttons, each linked to a bookmark for its target page. Key visuals: Static title/branding elements and the four navigation buttons.
 Business questions answered: "Where do I go to see what I need?" — this page exists purely for orientation, not analysis.
@@ -58,6 +59,7 @@ Business questions answered: "Where do I go to see what I need?" — this page e
 ### Sales Analysis Dashboard (Main)
 
 <img width="931" height="523" alt="image" src="https://github.com/user-attachments/assets/a8e0907f-ea47-4284-91ee-e721c44676d2" />
+
 
 > Purpose: Give a consolidated, top-level view of overall sales performance. 
 What I implemented: Total Sales, Total Order, and High Sales cards; a KPI visual comparing Total Sales to the High Sales goal; a Total Sales by Category donut; a Total Sales by Region column chart; a Total Sales trend line with trend line and max/min reference lines; a date-range slicer. Key visuals: KPI cards, KPI visual, donut chart, column chart, trend line chart. 
@@ -67,6 +69,7 @@ Business questions answered: "How are we doing overall right now, are we ahead o
 
 <img width="931" height="521" alt="image" src="https://github.com/user-attachments/assets/bb79c395-dd90-4db7-a917-d607850ca936" />
 
+
 > Purpose: Let a product or category manager dig into product-level performance. 
 What I implemented: A Top 10 Product list; a Top 5 Products by Sales bar chart ranked on YTD sales; a monthly sales-by-category line chart; a category donut; a monthly summary table (Total Order, Total Sales, Avg Sales, First Category); a combined Year/Region/Segment filter. Key visuals: Ranked bar chart, category line chart, donut, summary table. 
 Business questions answered: "Which products and categories are leading this year, how does category performance move month to month, and how does that change when I filter to a specific year, region, or segment?"
@@ -74,6 +77,7 @@ Business questions answered: "Which products and categories are leading this yea
 ### Detailed Customer Analysis
 
 <img width="929" height="525" alt="image" src="https://github.com/user-attachments/assets/8afc4bd8-c44f-4750-9886-1d6d9021175e" />
+
 
 > Purpose: Let a sales lead or account team identify and understand top-contributing customers. 
 What I implemented: Total Sales, Total Order, and Avg Sales cards; a Top 10 Customer table (Full Name, Total Order, Sum of Total Amount); a Top 5 Customer bar chart; a Total Sales by Month trend line; a category donut; a monthly breakdown table by category. Key visuals: Cards, ranked customer table, ranked bar chart, trend line, donut. 
@@ -83,11 +87,13 @@ Business questions answered: "Who are our most valuable customers, how many orde
 
 <img width="930" height="523" alt="image" src="https://github.com/user-attachments/assets/ae737318-ef01-4aff-808d-10761b794044" />
 
+
 > Purpose: Provide a detailed, date-hierarchy-driven view for a specific point of interest selected elsewhere in the report.
 What I implemented: A combo chart of Sum of Total Amount and Sum of Units Sold plotted by quarter, built on the Year › Quarter › Month › Day hierarchy, with drillthrough configured and Keep all filters enabled. Key visuals: Combo (column + line) chart. 
 Business questions answered: "For the specific period or item I clicked on, what's the detailed breakdown of value versus volume, down to the quarter or day level
 
-### Analytics Performed
+## Analytics Performed
+
 
 ### Sales Analysis
 
