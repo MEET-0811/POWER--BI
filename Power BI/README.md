@@ -18,7 +18,7 @@
 <br>
 
 <!-- [Add Screenshot]: export the Main page from Power BI as assets/dashboard-main.png -->
-![Sales & Customer Intelligence Dashboard](./assets/dashboard-main.png)
+![Sales & Customer Intelligence Dashboard](https://github.com/MEET-0811/POWER--BI/blob/6fe8c130a2d067132ca68c3cc69b36c90d2f9737/Power%20BI/SALES%20%26%20CUSTOMER%20INTELLIGENCE%20DASHBORD.pbix)
 
 </div>
 
